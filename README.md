@@ -221,7 +221,9 @@ This project included real-world debugging scenarios:
 ✔ Load-balanced application access  
 
 ![Dashboard](screenshots/dashboard.png)
-
+![DB](screenshots/db-userweb.png)
+![users](screenshots/users-web.png)
+![rabbitmq](screenshots/rabbitMQ-web.png)
 ---
 
 ## 📚 Key Learnings
