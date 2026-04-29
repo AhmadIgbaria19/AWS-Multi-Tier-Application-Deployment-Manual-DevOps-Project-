@@ -171,9 +171,6 @@ Deployed the application on the application server:
 cp vprofile.war /var/lib/tomcat10/webapps/ROOT.war
 systemctl restart tomcat10
 ```
-
-![Tomcat Deployment](screenshots/tomcat.png)
-
 ---
 
 ## ⚖️ Step 8: Load Balancer Setup
@@ -215,9 +212,6 @@ This project included real-world debugging scenarios:
 - Fixing DNS configuration
 - Restarting services
 - Validating service communication between layers
-
-![Debugging Logs](screenshots/debug.png)
-
 ---
 
 ## 🔥 Final Result
