@@ -199,7 +199,24 @@ http://<ELB-DNS>/login
 
 ---
 
-## 🔍 Step 10: Debugging & Troubleshooting
+---
+
+## 📈 Step 10: Auto Scaling Group
+
+Created an Auto Scaling Group to automatically manage application instances.
+
+The process included:
+
+- Creating an AMI from the configured `app01` instance
+- Creating a Launch Template based on the AMI
+- Attaching the Auto Scaling Group to the existing Target Group
+- Enabling Load Balancer health checks
+- Configuring desired, minimum, and maximum capacity
+
+This allows AWS to automatically replace unhealthy application instances and scale the application layer when needed.
+![Auto Scaling Group](screenshots/asg.png)
+
+## 🔍 Step 11: Debugging & Troubleshooting
 
 This project included real-world debugging scenarios:
 
